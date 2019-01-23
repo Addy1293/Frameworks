@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Api Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/backend.js"></script>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <h1>Api Challenge</h1>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-sm bg-info text-light">
+                <p>Numbers from 0 to 9999</p>
+                <input id="input" type="quote" placeholder="Enter a number">
+                
+          </div>
+          <div class="col-sm bg-danger">
+                Interesting fact<p id="quote"></p>   
+          </div>
+
+        </div>
+
+        <div class="row">
+            
+          <div class=" col-sm bg-warning text-light">
+                <br>
+                <center><button type="button" onclick="useInput()" class="btn btn-outline-success">Submit</button></center>
+                <br>
+                <center><button class="btn btn-outline-success" onclick="generate()">Random Number</button></center>
+                <br>
+                <span id="ranNum"></span>
+             </div>
+        </div>
+    </div>
+            
+</body>
+</html>
